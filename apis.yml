@@ -1,8 +1,26 @@
 aid: shortwave
 name: Shortwave
-description: Shortwave is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Shortwave is an AI-native email client that upgrades an existing Gmail or Google Workspace
+  account with a reimagined inbox, built by former members of Google's Inbox team and backed by
+  Lightspeed Venture Partners. Its AI assistant drafts and triages email, its AI-powered search
+  answers natural-language questions across your mailbox, and it connects to external tools as a
+  Model Context Protocol (MCP) client — Shortwave consumes MCP tool calls rather than publishing a
+  public developer REST API. Data is hosted on Google Cloud with AES-256 encryption at rest and
+  TLS 1.2+ in transit, and the product undergoes annual CASA Tier 2 security audits, with SOC 2
+  Type II and GDPR compliance available on request.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.shortwave.com/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/shortwave/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,63 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Email
+- Email Client
+- Artificial Intelligence
+- AI Assistant
+- Productivity
+- Model Context Protocol
+- Gmail
+- Google Workspace
+- Collaboration
 apis: []
+common:
+- type: TrustCenter
+  url: security/shortwave-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/shortwave-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/shortwave-domain-security.yml
+- type: Security
+  url: https://www.shortwave.com/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/shortwave-security.txt
+- type: WellKnown
+  url: well-known/shortwave-well-known.yml
+- type: Conformance
+  url: conformance/shortwave-conformance.yml
+- type: Website
+  url: https://www.shortwave.com
+- type: DeveloperPortal
+  url: https://www.shortwave.com/docs/
+- type: Documentation
+  url: https://www.shortwave.com/docs/
+- type: Blog
+  url: https://www.shortwave.com/blog/
+- type: Pricing
+  url: https://www.shortwave.com/pricing/
+- type: SignUp
+  url: https://app.shortwave.com/
+- type: TermsOfService
+  url: https://www.shortwave.com/policies/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.shortwave.com/policies/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/shortwave
+- type: Support
+  url: mailto:support@shortwave.com
+- type: Compliance
+  url: https://www.shortwave.com/docs/guides/security/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

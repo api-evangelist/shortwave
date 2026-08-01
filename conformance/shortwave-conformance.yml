@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.shortwave.com/docs/guides/security/
+standards:
+- id: google-api-services-user-data-policy
+  conforms: true
+  evidence: Compliant with Google's API Services User Data Policy (Limited Use requirements) for Gmail access.
+- id: casa-tier-2
+  conforms: true
+  evidence: Reviewed annually by third-party security auditors under the App Defense Alliance CASA Tier 2 assessment.
+- id: soc2-type-ii
+  conforms: available-on-request
+  evidence: SOC 2 Type II report available to organizations on request via support@shortwave.com.
+- id: gdpr
+  conforms: available-on-request
+  evidence: GDPR compliance / DPA available to organizations on request via support@shortwave.com.
+- id: encryption-in-transit-tls12
+  conforms: true
+  evidence: All data encrypted in transit with TLS 1.2+.
+- id: encryption-at-rest-aes256
+  conforms: true
+  evidence: All data encrypted at rest with AES-256 on Google Cloud infrastructure.
+notes: >-
+  Shortwave publishes no public developer REST API or OpenAPI, so cross-cutting API standards
+  (OAuth2/OIDC, RFC 9457, pagination, idempotency) are not applicable. The entries above capture
+  the provider's published security and compliance posture.
