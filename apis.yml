@@ -9,6 +9,17 @@ description: >-
   public developer REST API. Data is hosted on Google Cloud with AES-256 encryption at rest and
   TLS 1.2+ in transit, and the product undergoes annual CASA Tier 2 security audits, with SOC 2
   Type II and GDPR compliance available on request.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
