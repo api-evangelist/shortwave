@@ -66,6 +66,8 @@ tags_raw:
 - Collaboration
 apis: []
 common:
+- type: Plans
+  url: plans/shortwave-plans-pricing.yml
 - type: TrustCenter
   url: security/shortwave-trust-center.yml
 - type: VulnerabilityDisclosure
