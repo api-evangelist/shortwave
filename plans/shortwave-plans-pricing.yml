@@ -1,0 +1,52 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.shortwave.com/pricing/
+sources:
+- https://www.shortwave.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Business
+published: true
+note: Email AI client pricing page; 14 day free trial mentioned. Per-seat monthly tiers with AI usage
+  quotas.
+plan_count: 3
+currency: USD
+plans:
+- name: Business
+  price_text: $30 per seat / month
+  price: 30
+  currency: USD
+  period: month
+  unit: seat
+  included_quota: Standard intelligence, 5 years AI search history, max 50 threads per AI search, 3 AI-powered
+    filters; roughly 150-300 Standard intelligence AI requests per day
+- name: Premier
+  price_text: $45 per seat / month
+  price: 45
+  currency: USD
+  period: month
+  unit: seat
+  included_quota: Advanced intelligence, 2x more AI usage, unlimited AI search history, max 100 threads
+    per AI search, 10 AI-powered filters, 2x context tokens
+- name: Max
+  price_text: $120 per seat / month
+  price: 120
+  currency: USD
+  period: month
+  unit: seat
+  included_quota: Expert intelligence, 6x more AI usage, max 150 threads per AI search, 50 AI-powered
+    filters, 3x context tokens
+rate_limit_statements:
+- The Business plan allows for roughly 150-300 Standard intelligence AI requests per day.
+- Max 50 threads per AI search
+- Max 100 threads per AI search
+- Max 150 threads per AI search
